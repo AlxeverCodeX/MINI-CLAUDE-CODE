@@ -12,7 +12,7 @@ A minimal, terminal-based coding agent powered by `claude-opus-4.8`. It gives an
 - **File System Tools** - List directories, read and write files autonomously
 - **Shell Execution** - Run shell commands with explicit user approval (`y/n` prompt)
 - **Tool-Calling Loop** - Autonomous multi-step execution until the task is complete
-- **OpenAI-Compatible API** - Works with any OpenAI-compatible endpoint (default: `cleanapis.com`)
+- **OpenAI-Compatible API** - Works with any OpenAI-compatible endpoint (default: [cleanapis.com](https://cleanapis.com/?ref=CCUXSZQ9))
 
 ## How It Works
 
@@ -47,16 +47,15 @@ A minimal, terminal-based coding agent powered by `claude-opus-4.8`. It gives an
 ## Requirements
 
 - Python >= 3.11
-- Dependencies: `openai>=3.19.2`, `pygame>=2.6.1` (see `pyproject.toml`)
-- Optional: `python-dotenv` for `.env` file support
+- Dependencies: `openai>=3.19.2`, `python-dotenv>=1.0.0` (see `pyproject.toml`)
 
 ## Getting a Free API Key
 
-This agent uses an OpenAI-compatible API, so you can use **any** provider. The default is [CleanAPIs](https://cleanapis.com) which provides free credits for `claude-opus-4.8`.
+This agent uses an OpenAI-compatible API, so you can use **any** provider. The default is [CleanAPIs](https://cleanapis.com/?ref=CCUXSZQ9) which provides free credits for `claude-opus-4.8`.
 
 ### Option A: CleanAPIs (Recommended - Free Credits)
 
-1. Go to **[https://cleanapis.com](https://cleanapis.com)** and create an account
+1. Go to **[https://cleanapis.com/?ref=CCUXSZQ9](https://cleanapis.com/?ref=CCUXSZQ9)** and create an account
 2. Navigate to **Dashboard > API Keys**
 3. Click **Create New Key** and copy it (starts with `cc_...`)
 4. Use it in the Configuration step below
@@ -81,8 +80,8 @@ Just set `CLEANAPIS_BASE_URL` and `MODEL` to match your provider — the agent l
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/mini-claude-code.git
-cd mini-claude-code
+git clone https://github.com/AlxeverCodeX/MINI-CLAUDE-CODE.git
+cd MINI-CLAUDE-CODE
 ```
 
 ### 2. Create a virtual environment
@@ -105,7 +104,7 @@ pip install python-dotenv  # optional, for .env support
 Or directly:
 
 ```bash
-pip install "openai>=3.19.2" "pygame>=2.6.1" python-dotenv
+pip install "openai>=3.19.2" python-dotenv
 ```
 
 ## Configuration
