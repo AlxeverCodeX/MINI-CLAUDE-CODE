@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets / environment variables
+.env
+
+# Dev / scratch files - do not publish
+step1.py
+step2.py
+step3.py
